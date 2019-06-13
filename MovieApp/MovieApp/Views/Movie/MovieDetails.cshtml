@@ -1,0 +1,15 @@
+﻿@model MovieModel
+@{
+    ViewData["Title"] = "MovieDetails";
+}
+
+<h2>MovieDetails</h2>
+
+<div>
+    <p>@Model.Name</p>
+    <p>@Model.Genre</p>
+    <p>@Model.Rating</p>
+    <p>@Model.Length</p>
+    @Html.ActionLink("Back To Movies", "Movies")
+</div>
+
